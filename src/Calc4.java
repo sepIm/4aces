@@ -7,5 +7,8 @@ public class Calc4 {
         int numeroA=inserisci.nextInt();
         System.out.println("Digita il seconda numero");
         int numeroB=inserisci.nextInt();
+        Addizione faiLaSomma=new Addizione(numeroA,numeroB);
+        int risultato=faiLaSomma.somma();
+        System.out.println("il risultato della somma di"+numeroA+" "+numeroB+" e' "+risultato);
     }
 }
